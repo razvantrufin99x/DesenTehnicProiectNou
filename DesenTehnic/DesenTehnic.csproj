@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AA363804-0D89-4E9A-9A00-D24177C40523}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DesenTehnic</RootNamespace>
+    <AssemblyName>DesenTehnic</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="arcedebolta\arcrampant.cs" />
+    <Compile Include="arcedebolta\manerdecos.cs" />
+    <Compile Include="arcedebolta\ogivaechilaterala.cs" />
+    <Compile Include="arcedebolta\plincintru.cs" />
+    <Compile Include="cercuri\arc.cs" />
+    <Compile Include="cercuri\centru.cs" />
+    <Compile Include="cercuri\cerc.cs" />
+    <Compile Include="cercuri\tangenta.cs" />
+    <Compile Include="clasificare\arhitectura.cs" />
+    <Compile Include="clasificare\cartografic.cs" />
+    <Compile Include="clasificare\constructii.cs" />
+    <Compile Include="clasificare\desentehnic.cs" />
+    <Compile Include="clasificare\geodezic.cs" />
+    <Compile Include="clasificare\industrial.cs" />
+    <Compile Include="clasificare\instalatii.cs" />
+    <Compile Include="clasificare\sistematizare.cs" />
+    <Compile Include="clasificare\topografic.cs" />
+    <Compile Include="clasificare\urbanistic.cs" />
+    <Compile Include="colidehartie\dictando.cs" />
+    <Compile Include="colidehartie\filigran.cs" />
+    <Compile Include="colidehartie\matematica.cs" />
+    <Compile Include="coli\chenar.cs" />
+    <Compile Include="coli\dimensiune.cs" />
+    <Compile Include="coli\fisadeindosariere.cs" />
+    <Compile Include="coli\format.cs" />
+    <Compile Include="coli\inaltime.cs" />
+    <Compile Include="coli\latime.cs" />
+    <Compile Include="coli\lungime.cs" />
+    <Compile Include="coli\simbol.cs" />
+    <Compile Include="coli\suprafata.cs" />
+    <Compile Include="constructii\constructie.cs" />
+    <Compile Include="constructii\grafica.cs" />
+    <Compile Include="continutul\gabarit.cs" />
+    <Compile Include="continutul\operatie.cs" />
+    <Compile Include="continutul\releveu.cs" />
+    <Compile Include="corpurigeometrice\cilindru.cs" />
+    <Compile Include="corpurigeometrice\conul.cs" />
+    <Compile Include="corpurigeometrice\corp.cs" />
+    <Compile Include="corpurigeometrice\corpderotatie.cs" />
+    <Compile Include="corpurigeometrice\cub.cs" />
+    <Compile Include="corpurigeometrice\piramida.cs" />
+    <Compile Include="corpurigeometrice\poliedru.cs" />
+    <Compile Include="corpurigeometrice\prisma.cs" />
+    <Compile Include="corpurigeometrice\sfera.cs" />
+    <Compile Include="curbegeometrice\arhimede.cs" />
+    <Compile Include="curbegeometrice\axa.cs" />
+    <Compile Include="curbegeometrice\centru.cs" />
+    <Compile Include="curbegeometrice\oval.cs" />
+    <Compile Include="curbegeometrice\ovoid.cs" />
+    <Compile Include="curbegeometrice\spirala.cs" />
+    <Compile Include="desenproiectiv\plan.cs" />
+    <Compile Include="desenproiectiv\plandeproiectie.cs" />
+    <Compile Include="desenproiectiv\proiectanta.cs" />
+    <Compile Include="desenproiectiv\proiectie.cs" />
+    <Compile Include="desenproiectiv\punct.cs" />
+    <Compile Include="desenproiectiv\reprezentare.cs" />
+    <Compile Include="desenproiectiv\sistemdeproiectie.cs" />
+    <Compile Include="desentehnic.cs" />
+    <Compile Include="destinatii\catalog.cs" />
+    <Compile Include="destinatii\executie.cs" />
+    <Compile Include="destinatii\montaj.cs" />
+    <Compile Include="destinatii\prospect.cs" />
+    <Compile Include="destinatii\studiu.cs" />
+    <Compile Include="dispunereaproiectiilor\alegere.cs" />
+    <Compile Include="dispunereaproiectiilor\asezare.cs" />
+    <Compile Include="dispunereaproiectiilor\atreiaproiectie.cs" />
+    <Compile Include="dispunereaproiectiilor\d2.cs" />
+    <Compile Include="dispunereaproiectiilor\d3.cs" />
+    <Compile Include="dispunereaproiectiilor\dispunere.cs" />
+    <Compile Include="dispunereaproiectiilor\dreapta.cs" />
+    <Compile Include="dispunereaproiectiilor\fata.cs" />
+    <Compile Include="dispunereaproiectiilor\jos.cs" />
+    <Compile Include="dispunereaproiectiilor\normala.cs" />
+    <Compile Include="dispunereaproiectiilor\spate.cs" />
+    <Compile Include="dispunereaproiectiilor\stanga.cs" />
+    <Compile Include="dispunereaproiectiilor\sus.cs" />
+    <Compile Include="dispunereaproiectiilor\vedere.cs" />
+    <Compile Include="drepte\latura.cs" />
+    <Compile Include="drepte\paralela.cs" />
+    <Compile Include="drepte\perpendiculara.cs" />
+    <Compile Include="drepte\segment.cs" />
+    <Compile Include="elementedecotare\circumferinta.cs" />
+    <Compile Include="elementedecotare\cota.cs" />
+    <Compile Include="elementedecotare\diametru.cs" />
+    <Compile Include="elementedecotare\liniaajutatoare.cs" />
+    <Compile Include="elementedecotare\liniadecota.cs" />
+    <Compile Include="elementedecotare\liniadeindicatie.cs" />
+    <Compile Include="elementedecotare\razadecurbura.cs" />
+    <Compile Include="elementedecotare\simbol.cs" />
+    <Compile Include="elementedecotare\stas18674.cs" />
+    <Compile Include="elementedeexecutareaschitei\executie.cs" />
+    <Compile Include="elementedeexecutareaschitei\indicatorul.cs" />
+    <Compile Include="elementedeexecutareaschitei\model.cs" />
+    <Compile Include="elementedeexecutareaschitei\obiect.cs" />
+    <Compile Include="elementedeexecutareaschitei\operatie.cs" />
+    <Compile Include="elementedeexecutareaschitei\operatiepreliminara.cs" />
+    <Compile Include="elementedeexecutareaschitei\releveu.cs" />
+    <Compile Include="elementedeexecutareaschitei\schita.cs" />
+    <Compile Include="elementedeexecutareaschitei\schitare.cs" />
+    <Compile Include="elemente\caracter.cs" />
+    <Compile Include="elemente\desen.cs" />
+    <Compile Include="elemente\dimensiune.cs" />
+    <Compile Include="elemente\document.cs" />
+    <Compile Include="executarea\ansamblu.cs" />
+    <Compile Include="executarea\axedesimetrie.cs" />
+    <Compile Include="executarea\componenta.cs" />
+    <Compile Include="executarea\conturinterior.cs" />
+    <Compile Include="executarea\contururiexterioare.cs" />
+    <Compile Include="executarea\cota.cs" />
+    <Compile Include="executarea\dimensiune.cs" />
+    <Compile Include="executarea\dreptunghiuriminimedeincadrare.cs" />
+    <Compile Include="executarea\forma.cs" />
+    <Compile Include="executarea\formastandardizata.cs" />
+    <Compile Include="executarea\inscris.cs" />
+    <Compile Include="executarea\legaturi.cs" />
+    <Compile Include="executarea\liniidecontur.cs" />
+    <Compile Include="executarea\liniidecota.cs" />
+    <Compile Include="executarea\masurare.cs" />
+    <Compile Include="executarea\notari.cs" />
+    <Compile Include="executarea\numaruldeproiectii.cs" />
+    <Compile Include="executarea\proiectieprincipala.cs" />
+    <Compile Include="executarea\simbol.cs" />
+    <Compile Include="fazelealcatuiriidesenuluilascara\alegereascarii.cs" />
+    <Compile Include="fazelealcatuiriidesenuluilascara\calcule.cs" />
+    <Compile Include="fazelealcatuiriidesenuluilascara\completareindicator.cs" />
+    <Compile Include="fazelealcatuiriidesenuluilascara\contururi.cs" />
+    <Compile Include="fazelealcatuiriidesenuluilascara\cotare.cs" />
+    <Compile Include="fazelealcatuiriidesenuluilascara\determinarreamarimiiformatului.cs" />
+    <Compile Include="fazelealcatuiriidesenuluilascara\ordineaexecutarii.cs" />
+    <Compile Include="fazelealcatuiriidesenuluilascara\verificaredesen.cs" />
+    <Compile Include="forme\punct.cs" />
+    <Compile Include="grafica\graficaaplicatiei.cs" />
+    <Compile Include="grafice\cartograma.cs" />
+    <Compile Include="grafice\diagrama.cs" />
+    <Compile Include="grafice\nomograma.cs" />
+    <Compile Include="indicatoruldedesen\cod.cs" />
+    <Compile Include="indicatoruldedesen\companie.cs" />
+    <Compile Include="indicatoruldedesen\data.cs" />
+    <Compile Include="indicatoruldedesen\denumire.cs" />
+    <Compile Include="indicatoruldedesen\initiale.cs" />
+    <Compile Include="indicatoruldedesen\marca.cs" />
+    <Compile Include="indicatoruldedesen\masaneta.cs" />
+    <Compile Include="indicatoruldedesen\material.cs" />
+    <Compile Include="indicatoruldedesen\normatehnica.cs" />
+    <Compile Include="indicatoruldedesen\numardesen.cs" />
+    <Compile Include="indicatoruldedesen\numarulplansei.cs" />
+    <Compile Include="indicatoruldedesen\persoana.cs" />
+    <Compile Include="indicatoruldedesen\plansa.cs" />
+    <Compile Include="indicatoruldedesen\scara.cs" />
+    <Compile Include="indicatoruldedesen\semnatura.cs" />
+    <Compile Include="indicatoruldedesen\tabel.cs" />
+    <Compile Include="instrumente\compas.cs" />
+    <Compile Include="instrumente\creion.cs" />
+    <Compile Include="instrumente\distantier.cs" />
+    <Compile Include="instrumente\echer.cs" />
+    <Compile Include="instrumente\florar.cs" />
+    <Compile Include="instrumente\guma.cs" />
+    <Compile Include="instrumente\mina.cs" />
+    <Compile Include="instrumente\pix.cs" />
+    <Compile Include="instrumente\plansa.cs" />
+    <Compile Include="instrumente\raportor.cs" />
+    <Compile Include="instrumente\rigla.cs" />
+    <Compile Include="instrumente\riglagradata.cs" />
+    <Compile Include="instrumente\teu.cs" />
+    <Compile Include="instrumente\trusadecompasuri.cs" />
+    <Compile Include="instrumente\tus.cs" />
+    <Compile Include="intretinerea\dispozitivdetrasatcutus.cs" />
+    <Compile Include="intretinerea\instrumentdinlemn.cs" />
+    <Compile Include="intretinerea\instrumentdinmetal.cs" />
+    <Compile Include="intretinerea\instrumentdinplastic.cs" />
+    <Compile Include="intretinerea\plansadedesen.cs" />
+    <Compile Include="intretinerea\tragator.cs" />
+    <Compile Include="linii\continua.cs" />
+    <Compile Include="linii\culoare.cs" />
+    <Compile Include="linii\discontinua.cs" />
+    <Compile Include="linii\groasa.cs" />
+    <Compile Include="linii\grosime.cs" />
+    <Compile Include="linii\intrerupta.cs" />
+    <Compile Include="linii\liniedouapuncte.cs" />
+    <Compile Include="linii\liniepunct.cs" />
+    <Compile Include="linii\mixta.cs" />
+    <Compile Include="linii\ondulata.cs" />
+    <Compile Include="linii\subtire.cs" />
+    <Compile Include="linii\zigzag.cs" />
+    <Compile Include="materiale\hartie.cs" />
+    <Compile Include="materiale\hartiealbaopaca.cs" />
+    <Compile Include="materiale\hartiedecalc.cs" />
+    <Compile Include="materiale\hartiedeozalid.cs" />
+    <Compile Include="materiale\hartieheliografica.cs" />
+    <Compile Include="materiale\material.cs" />
+    <Compile Include="elemente\standard.cs" />
+    <Compile Include="elemente\text.cs" />
+    <Compile Include="formecurbe\arcdebolta.cs" />
+    <Compile Include="formecurbe\arcedecrec.cs" />
+    <Compile Include="formecurbe\profilmul.cs" />
+    <Compile Include="forme\arc.cs" />
+    <Compile Include="forme\cerc.cs" />
+    <Compile Include="forme\dreapta.cs" />
+    <Compile Include="forme\elipsa.cs" />
+    <Compile Include="forme\formageometrica.cs" />
+    <Compile Include="elemente\pozitie.cs" />
+    <Compile Include="elemente\stil.cs" />
+    <Compile Include="elemente\unealta.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forme\ngon.cs" />
+    <Compile Include="forme\oval.cs" />
+    <Compile Include="forme\patrulater.cs" />
+    <Compile Include="forme\poligon.cs" />
+    <Compile Include="forme\segment.cs" />
+    <Compile Include="forme\triunghi.cs" />
+    <Compile Include="forme\unghi.cs" />
+    <Compile Include="modurideintocmire\desenlascara.cs" />
+    <Compile Include="modurideintocmire\schita.cs" />
+    <Compile Include="operatiipreliminare\analiza.cs" />
+    <Compile Include="operatiipreliminare\forma.cs" />
+    <Compile Include="operatiipreliminare\identificare.cs" />
+    <Compile Include="operatiipreliminare\piesa.cs" />
+    <Compile Include="operatiipreliminare\pozitie.cs" />
+    <Compile Include="operatiipreliminare\proiectii.cs" />
+    <Compile Include="operatii\constructie.cs" />
+    <Compile Include="operatii\desenare.cs" />
+    <Compile Include="operatii\egal.cs" />
+    <Compile Include="operatii\impartire.cs" />
+    <Compile Include="operatii\ingrosare.cs" />
+    <Compile Include="operatii\proportional.cs" />
+    <Compile Include="operatii\stergere.cs" />
+    <Compile Include="operatii\subtiere.cs" />
+    <Compile Include="operatii\trasare.cs" />
+    <Compile Include="patrulatere\dreptunghi.cs" />
+    <Compile Include="patrulatere\isoscel.cs" />
+    <Compile Include="patrulatere\paralelogram.cs" />
+    <Compile Include="patrulatere\patrat.cs" />
+    <Compile Include="patrulatere\romb.cs" />
+    <Compile Include="patrulatere\trapez.cs" />
+    <Compile Include="profiluridemul\cavet.cs" />
+    <Compile Include="profiluridemul\dusina.cs" />
+    <Compile Include="profiluridemul\scotie.cs" />
+    <Compile Include="profiluridemul\sfertdecerc.cs" />
+    <Compile Include="profiluridemul\talon.cs" />
+    <Compile Include="profiluridemul\tor.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="elemente\proiect.cs" />
+    <Compile Include="proiectii\axonometrica.cs" />
+    <Compile Include="proiectii\centrala.cs" />
+    <Compile Include="proiectii\cilindricadreapta.cs" />
+    <Compile Include="proiectii\cilindricaoblica.cs" />
+    <Compile Include="proiectii\conica.cs" />
+    <Compile Include="proiectii\paralela.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="racordari\arc.cs" />
+    <Compile Include="racordari\bisectoare.cs" />
+    <Compile Include="racordari\centru.cs" />
+    <Compile Include="racordari\cerccerc.cs" />
+    <Compile Include="racordari\dreaptadreapta.cs" />
+    <Compile Include="racordari\dreaptacerc.cs" />
+    <Compile Include="racordari\elementderacordare.cs" />
+    <Compile Include="racordari\punct.cs" />
+    <Compile Include="racordari\raza.cs" />
+    <Compile Include="racorduri\racord.cs" />
+    <Compile Include="regulidefolosire\trasarecucompas.cs" />
+    <Compile Include="regulidefolosire\trasareliniicuteu.cs" />
+    <Compile Include="regulidefolosire\trasareliniiincreion.cs" />
+    <Compile Include="regulidefolosire\varfulportmina.cs" />
+    <Compile Include="reprezentari\abcisa.cs" />
+    <Compile Include="reprezentari\cerc.cs" />
+    <Compile Include="reprezentari\coordonata.cs" />
+    <Compile Include="reprezentari\departareazero.cs" />
+    <Compile Include="reprezentari\dreptunghi.cs" />
+    <Compile Include="reprezentari\epura.cs" />
+    <Compile Include="reprezentari\lateral.cs" />
+    <Compile Include="reprezentari\orizontal.cs" />
+    <Compile Include="reprezentari\patrat.cs" />
+    <Compile Include="reprezentari\perspectiva.cs" />
+    <Compile Include="reprezentari\plan.cs" />
+    <Compile Include="reprezentari\planplan.cs" />
+    <Compile Include="reprezentari\planplanplan.cs" />
+    <Compile Include="reprezentari\pozitie.cs" />
+    <Compile Include="reprezentari\proiectieortogonala.cs" />
+    <Compile Include="reprezentari\punctdecotazero.cs" />
+    <Compile Include="reprezentari\punctoarecare.cs" />
+    <Compile Include="reprezentari\punctul.cs" />
+    <Compile Include="reprezentari\rabatere.cs" />
+    <Compile Include="reprezentari\spatiu.cs" />
+    <Compile Include="reprezentari\triedrudeproiectie.cs" />
+    <Compile Include="reprezentari\triunghi.cs" />
+    <Compile Include="reprezentari\vertical.cs" />
+    <Compile Include="scara\dimensiune.cs" />
+    <Compile Include="scara\executare.cs" />
+    <Compile Include="scara\faza.cs" />
+    <Compile Include="scara\fazeleexecutarii.cs" />
+    <Compile Include="scara\intocmire.cs" />
+    <Compile Include="scara\marime.cs" />
+    <Compile Include="scara\masurat.cs" />
+    <Compile Include="scara\micsorare.cs" />
+    <Compile Include="scara\naturala.cs" />
+    <Compile Include="scara\real.cs" />
+    <Compile Include="scara\regula.cs" />
+    <Compile Include="scara\scaranumerica.cs" />
+    <Compile Include="scheme\cinematica.cs" />
+    <Compile Include="scheme\electrica.cs" />
+    <Compile Include="scheme\hidraulica.cs" />
+    <Compile Include="scheme\instalatii.cs" />
+    <Compile Include="scriereastandardizata\ascii.cs" />
+    <Compile Include="scriereastandardizata\bold.cs" />
+    <Compile Include="scriereastandardizata\cifra.cs" />
+    <Compile Include="scriereastandardizata\exponent.cs" />
+    <Compile Include="scriereastandardizata\indice.cs" />
+    <Compile Include="scriereastandardizata\limba.cs" />
+    <Compile Include="scriereastandardizata\litera.cs" />
+    <Compile Include="scriereastandardizata\literamare.cs" />
+    <Compile Include="scriereastandardizata\normala.cs" />
+    <Compile Include="scriereastandardizata\oblica.cs" />
+    <Compile Include="scriereastandardizata\operator.cs" />
+    <Compile Include="scriereastandardizata\semn.cs" />
+    <Compile Include="scriereastandardizata\simbol.cs" />
+    <Compile Include="scriereastandardizata\subliniere.cs" />
+    <Compile Include="scrierea\cifra.cs" />
+    <Compile Include="scrierea\cuvant.cs" />
+    <Compile Include="scrierea\dimeniune.cs" />
+    <Compile Include="scrierea\dimensiunenominala.cs" />
+    <Compile Include="scrierea\distanta.cs" />
+    <Compile Include="scrierea\dreapta.cs" />
+    <Compile Include="scrierea\grosime.cs" />
+    <Compile Include="scrierea\inaltime.cs" />
+    <Compile Include="scrierea\inclinata.cs" />
+    <Compile Include="scrierea\liniadebazaexponent.cs" />
+    <Compile Include="scrierea\liniadebazaindice.cs" />
+    <Compile Include="scrierea\liniadescriere.cs" />
+    <Compile Include="scrierea\litera.cs" />
+    <Compile Include="scrierea\mare.cs" />
+    <Compile Include="scrierea\mica.cs" />
+    <Compile Include="scrierea\numar.cs" />
+    <Compile Include="scrierea\rand.cs" />
+    <Compile Include="scrierea\reguli.cs" />
+    <Compile Include="scrierea\scris.cs" />
+    <Compile Include="scrierea\spatiu.cs" />
+    <Compile Include="scrierea\tip.cs" />
+    <Compile Include="scrierea\unghideinclinare.cs" />
+    <Compile Include="sistemedeproiectie\centrala.cs" />
+    <Compile Include="sistemedeproiectie\cilindrica.cs" />
+    <Compile Include="sistemedeproiectie\conica.cs" />
+    <Compile Include="sistemedeproiectie\dreapta.cs" />
+    <Compile Include="sistemedeproiectie\ortogonala.cs" />
+    <Compile Include="sistemedeproiectie\paralela.cs" />
+    <Compile Include="standarde\cotare.cs" />
+    <Compile Include="standarde\dispunerea.cs" />
+    <Compile Include="standarde\format.cs" />
+    <Compile Include="standarde\linie.cs" />
+    <Compile Include="standarde\parte.cs" />
+    <Compile Include="standarde\reprezentarea.cs" />
+    <Compile Include="standarde\ruptura.cs" />
+    <Compile Include="standarde\scrierea.cs" />
+    <Compile Include="standarde\sectiune.cs" />
+    <Compile Include="standarde\stas.cs" />
+    <Compile Include="standarde\vedere.cs" />
+    <Compile Include="unghiuri\ascutit.cs" />
+    <Compile Include="unghiuri\dreptunghic.cs" />
+    <Compile Include="unghiuri\oarecare.cs" />
+    <Compile Include="unghiuri\obtuz.cs" />
+    <Compile Include="unghiuri\triunghi.cs" />
+    <Compile Include="unghiuri\unghi.cs" />
+    <Compile Include="users\administrator.cs" />
+    <Compile Include="users\autor.cs" />
+    <Compile Include="users\grup.cs" />
+    <Compile Include="users\persoana.cs" />
+    <Compile Include="users\utilizator.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="aplicatii\" />
+    <Folder Include="examene\" />
+    <Folder Include="note\" />
+    <Folder Include="probleme\" />
+    <Folder Include="procedee\" />
+    <Folder Include="reguli\" />
+    <Folder Include="teste\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
